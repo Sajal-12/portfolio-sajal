@@ -202,11 +202,11 @@ export default function HeroSection() {
                 animate={{ y: [0, -8, 0] }}
                 transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
               >
-                <div className="w-64 h-64 sm:w-72 sm:h-72 lg:w-80 lg:h-80 rounded-full overflow-hidden bg-background ring-4 ring-background">
+                <div className="w-64 h-64 sm:w-72 sm:h-72 lg:w-80 lg:h-80 rounded-full overflow-hidden bg-secondary ring-4 ring-background">
                   <img
                     src={sajalImage}
                     alt="Sajal Swapnil — Backend & Blockchain Engineer"
-                    className="w-full h-full object-cover object-top scale-110"
+                    className="w-full h-full object-cover object-[center_15%] scale-125"
                   />
                 </div>
               </motion.div>
